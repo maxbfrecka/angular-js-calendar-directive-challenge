@@ -1,1 +1,21 @@
-/* your css code goes here */
+
+.calendar {
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+}
+
+td {
+	height:100px;
+	min-height: 100px;
+	min-width: 150px;
+	border-style:solid;
+	border-width:2px;
+}
+
+#excluded {
+	background-color: lightgrey;
+}
+
+#included {
+}

@@ -1,0 +1,165 @@
+- constructs a value from the information placed into the date-nav
+(using a directive I think)
+
+-> selector on page is set to current date when loaded (presentDate)
+	-date : month / year (11 / 2016) -> into selector (2 way data binding)
+	? how to get it into the selector ?
+	-can set options to a value (11) and display month name along with
+	-when information is updated, calendar automatically displays new info
+
+
+-> date selected generates month and year for the date to be displayed (newDate)
+
+-> date information is collected into object
+
+
+
+
+-> date information is displayed in table
+	(HOW!!!!!?????)
+->but how to color the days that are in the month that aren't included...?
+(do a check to see if the month = month in the DATE - if so, color one way. if not, another way)
+
+I think I need to try to learn more about directives to do this.
+
+for DAY in DAYS - > day in the table - > rows of seven!
+
+
+
+
+NOW!:
+load page : correct date displayed
+load 
+
+
+
+
+
+
+controller sets default at load (placeholder in the SELECT box)
+
+nav directive:
+
+
+year [calculate a range of + and - 20 years to list]
+
+<ng-repeat (from 1996-2036 ex)>
+	<option year="{{x}}">{{x}}</option>
+
+
+
+for months just write them out I guess
+
+
+
+now, you need to bind the data both ways
+
+
+lastly, you need to ensure that when the user changes the choice in select box that it automatically updates the page
+
+
+
+dataFactory.year = dateNav year
+(sets the date data from the info in view)
+
+->how would i make it so that the info updates when the user selections something?
+
+
+
+
+
+steps to finish:
+-how to register a form change event in nav directive
+(which will trigger a change in the respective data [date] pr [year])
+(by taking the new value that is selected and sending it to the datafactory)
+(and then update the range data)
+(and then to update the variables in the directive calendar scope and reflect this in the view)
+
+-set the current date on page load by using DEFAULT VALUE in the form itself
+
+
+-how to register form change event
+-how to get the data in the form
+-how to set the default value in the form to 
+
+
+
+
+----> study the volume slider in the example
+
+
+
+---> seems that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LAST STEPS:
+-GET MONTH DATA TO WORK WITH SCOPE AND PASS PROPERLY
+-GET THE VIEW TO UPDATE ON CHANGES
+
+
+
+-> I may need to change this to make it work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

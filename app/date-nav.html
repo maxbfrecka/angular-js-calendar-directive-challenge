@@ -1,0 +1,16 @@
+<form>
+
+	<select ng-model="month" ng-options="month as month | date: 'MMMM' for month in months" ng-change="updateMonth()">
+	  <option value="">Choose Month</option>
+	</select>
+
+<select ng-model="year" ng-options="year as year for year in years" ng-change="updateYear()">
+  <option value="">Choose Year</option>
+</select>
+
+</form>
+
+
+
+<!-- can't get to filter months properly -->
+
